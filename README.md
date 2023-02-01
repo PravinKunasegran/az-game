@@ -42,24 +42,24 @@ To start the game, open the game file in a C++ compiler and run the program. You
 
 3.	Game Controls: 
 The player plays the game by typing commands. The following are the commands available in the game:
-•	up: Alien to move up.
-•	down: Alien to move down.
-•	left: Alien to move left.
-•	right: Alien to move right.
-•	arrow: Switch the direction of an arrow object in the game board. (The player will be asked to enter the row and column of the arrow object to switch, followed by the direction of the arrow object to switch to.)
-•	help: List and describe the commands that the player can use in the game.
-•	save: Save the current game to a file. (The player will be asked to enter the name of the file to save to).
-•	load: Load a saved game from a file (The player will be asked to enter the name of the file to load from).
-•	quit: Quit the game while still in play. (The player will be asked to confirm their decision)
+-	up: Alien to move up.
+-	down: Alien to move down.
+-	left: Alien to move left.
+-	right: Alien to move right.
+-	arrow: Switch the direction of an arrow object in the game board. (The player will be asked to enter the row and column of the arrow object to switch, followed by the direction of the arrow object to switch to.)
+-	help: List and describe the commands that the player can use in the game.
+-	save: Save the current game to a file. (The player will be asked to enter the name of the file to save to).
+-	load: Load a saved game from a file (The player will be asked to enter the name of the file to load from).
+-	quit: Quit the game while still in play. (The player will be asked to confirm their decision)
 
 4.	Game Objects: 
 The game board also contains game objects that Alien can interact with. Here are the game objects:
-•	Arrow: Changes the Alien’s direction of movement and adds 20 attacks to Alien.
-•	Health: Adds 20 life to Alien.
-•	Pod: Instantly inflicts 10 damage to Zombie when hit by Alien.
-•	Rock: Hides a game object (except Rock and Trail) beneath it and stops the Alien from moving.
-•	Empty Space: Just an empty space on the board.
-•	Trail: Left by Alien when it moves and reset to a random game object (except the Trail) after Alien’s turn ends.
+-	Arrow: Changes the Alien’s direction of movement and adds 20 attacks to Alien.
+-	Health: Adds 20 life to Alien.
+-	Pod: Instantly inflicts 10 damage to Zombie when hit by Alien.
+-	Rock: Hides a game object (except Rock and Trail) beneath it and stops the Alien from moving.
+-	Empty Space: Just an empty space on the board.
+-	Trail: Left by Alien when it moves and reset to a random game object (except the Trail) after Alien’s turn ends.
 
 5.	Saving and Loading Game File: 
 When saving a game, ensure that the data is stored correctly so that it can be loaded successfully. After saving, the player will continue to play the ongoing game unless the “quit” command is entered to end the game. Before loading a game, the player must choose whether to save or discard the ongoing game. If the player chooses to save, then the ongoing game must be saved before the loaded game is played.
