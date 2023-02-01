@@ -2,7 +2,7 @@
 
 ## Video Demo
 
-The attached document contains a link to a YouTube video that my team and I have included for submission  convenience and reference  [Video Demo](https://youtube.com).
+The attached document contains a link to a YouTube video that my team and I have included for submission  convenience and reference  [Video Demo](https://www.youtube.com/watch?v=pcQ52VG0MW4).
 
 ## Minimum Requirements
 
@@ -20,13 +20,10 @@ The list of  features that have been completed .
 - Both Alien and Zombie can move but also limited inside the gameboard   
 5. Game Objects 
 - Apart from the game characters, the game board also contains game objects such as :
- a) Arrow {^ (up),v (down), < (left), > (right)}
- b) Health {h}
- c) Pod {p}
- d) Rock {r}
- e) Empty  {Space} 
+ Arrow {^ (up),v (down), < (left), > (right)} , Health {h} ,Pod {p}, Rock {r}, Empty  {Space} 
  6. Game Control 
  - The player plays the game by typing command , until Alien movements 
+ 7. Multiple Zombie - Able to customize the number of zombie  
 ### To Do
 
 List of  all the features on which is incomplete  (ON PROGRESS ). 
@@ -49,19 +46,31 @@ As specified contribution is  listed down of each group member:
 
 ### PRAVIN KUNASEGRAN-(1221303877)
 
-1. Randomly generate game board.
-2. *add more*
+1. Overview of Alien vs. Zombie
+2. Alien Movement & Attacks 
+3. Documentation & Git-hub Setup
+4. Game Controls 
 
 ###  MALINY A/P THANARAJ-(1211100910)
 
-1. Zombie movement and attack behaviour.
-2. *add more*
+1. Game Characters & Game board 
+2. Zombie movement and attack behaviour.
+3. Implement all game objects.
+4. Game Controls 
 
 ### MAEVINARSH A/L LOGANATHAN-(1211103476)
 
-1. Implement all game objects.
-2. *add more*
+1. Game Board 
+2. Game Objects
+3. Video Demonstration 
+4. Game Controls 
 
 ## Problems Encountered & Solutions
 
-Describe the problems encountered and provide the solutions / plan for the solutions.ss
+1. Game Board customization accepting even numbers for rows and collums - Solved inserted an condition for row and collums and debuged  
+1. Alien is not centered in gameboard  
+- A bug in the code, it may cause the Alien to not be centered will be solve in further submission 
+2. Zombie is not spawning 
+- Checked the code for the spawn point of the Zombie. Founded that the incorrect coordinates are being used and that the Zombie is being placed on the game board will be solve in further submission 
+3. Alien not able follow the command 
+-  Logic Error.The logic for moving the Alien may be incorrect will be solve in further submission 
