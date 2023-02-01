@@ -2,7 +2,7 @@
 
 ## Video Demo
 
-The attached document contains a link to a YouTube video that my team and I have included for your convenience and reference  [Video Demo](https://youtube.com).
+The attached document contains a link to a YouTube video that my team and I have included for submission  convenience and reference  [Video Demo](https://youtube.com).
 
 ## Minimum Requirements
 
@@ -25,7 +25,8 @@ The list of  features that have been completed .
  c) Pod {p}
  d) Rock {r}
  e) Empty  {Space} 
- 6. Game Control - The player plays the game by typing command , until Alien movements 
+ 6. Game Control 
+ - The player plays the game by typing command , until Alien movements 
 ### To Do
 
 List of  all the features on which is incomplete  (ON PROGRESS ). 
@@ -44,19 +45,19 @@ Added condition for only odd number is allowed in Game Board customization (Row 
 
 As a leader, I have taken  measures to fairly distribute the contributions made by each member of the team, promoting equality, workload and teamwork.
 
-As specified contribution is  listed down of each group member
+As specified contribution is  listed down of each group member:
 
-### PRAVIN KUNASEGRAN
+### PRAVIN KUNASEGRAN-(1221303877)
 
 1. Randomly generate game board.
 2. *add more*
 
-###  Mal
+###  MALINY A/P THANARAJ-(1211100910)
 
 1. Zombie movement and attack behaviour.
 2. *add more*
 
-### Maevinarsh A/L Loganathan
+### MAEVINARSH A/L LOGANATHAN-(1211103476)
 
 1. Implement all game objects.
 2. *add more*
