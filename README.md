@@ -75,7 +75,9 @@ When saving a game, ensure that the data is stored correctly so that it can be l
 7.	Conclusion: 
 This manual provides an overview of the game "Alien and Zombies" and the commands available in the game. It also explains the different game objects and how to save and load the game file. By following these instructions, the player can enjoy the game to its fullest.
 
+## Disclaimer!!
 
+This is a disclaimer to notify users that they should allow a time interval of at least 3 to 5 seconds for every input and output process to be completed. Failure to do so may lead to immediate crashing of the execution file.
 
 ## Progress Log
 

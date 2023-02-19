@@ -69,6 +69,7 @@ As specified contribution is  listed down of each group member:
 2. Mainly many Bug Fixing 
 3. Additional Feature 2#
 4. Alien Centered and Progressive Gameplay Tester 
+
 ## Problems Encountered & Solutions
 
 1. Alien which not centered 
@@ -76,4 +77,8 @@ As specified contribution is  listed down of each group member:
 2. Rows and Collumns Bugs 
 - Has problem identify input between rows and Collumns - Bugs is fixed 
 3. Multiple Crash 
-- It appears that we encountered numerous crashes in the VScode Terminal, which were later attributed to the time lapse between the input and output periods. The issue was resolved by allowing a 10 to 15 second interval between each input and output operation.
+- It appears that we encountered numerous crashes in the VScode Terminal, which were later attributed to the time lapse between the input and output periods. The issue was resolved by allowing a 3 to 5 second interval between each input and output operation.
+
+## Disclaimer!!
+
+This is a disclaimer to notify users that they should allow a time interval of at least 3 to 5 seconds for every input and output process to be completed. Failure to do so may lead to immediate crashing of the execution file.
