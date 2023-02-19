@@ -892,13 +892,14 @@ void changeGameSettings(int& board_rows, int& board_columns, int& zombie_count)
 
             //cout << zombie_count; temporary
 
-            if (zombie_count < 1) //to disallow negative values and 0. There is no such thing as month 0,-1,-2,-3,-4,...
+            if (zombie_count >= 10 || zombie_count <= 0) //the assignment limits zombie count to 9
             {
-                cout << "Cannot enter 0 or numbers below that" << endl;
+                cout << "Number of zombies should be between 1 to 9 only!" << endl;
                 cin.clear();
                 cout << "Enter number of zombies => ";
                 continue;
             }
+
             else break; // else is to break the loop
 
         }
@@ -1095,11 +1096,12 @@ void gameControl(Alien& player, AlienZombieGameBoard& playingBoard, std::vector<
         if (Z[i].getLife() < 1) {
             victory = true;
         }
-        else {
-            victory = false;
-            break;
+        if (player.getLife() < 1) {
+            defeat = true;
         }
-
+        /*else {
+            victory = false;
+            break;}*/
     }
 playingBoard.display();
 player.turnContext(player, Z);
@@ -1110,11 +1112,11 @@ if (victory) {
     cout << "All Zombies are defeated. Congratulations!" << endl;
     cout << endl;
     cout << "Enter 1 to Play Again" << endl;
-    cout << "Enter 2 to View Leaderboard" << endl;
+    cout << "Enter 2 to View Total Score of the Game" << endl;
     cout << "Enter 3 to Quit" << endl;
     cout << "Please Enter: ";
     cin >> nextAction;
-}
+
 
 if (nextAction == 1) {
      main(); // Function to reset the game
@@ -1122,7 +1124,8 @@ if (nextAction == 1) {
 
 else if (nextAction == 2) {
     cout << "Your total score is " << totalScore << endl;
-    // Code to show leaderboard using the totalScore
+    cout << "Enter anything to continue" << endl;
+
 }
 
 else if (nextAction == 3) {
@@ -1131,11 +1134,9 @@ else if (nextAction == 3) {
     //_getch();
 }
 
-    else
-        //donkey
 
 
-
+}
 
     if (defeat) {
 
@@ -1143,21 +1144,20 @@ else if (nextAction == 3) {
         cout << "Alien is defeated. Better luck next time!" << endl;
         cout << "" << endl;
         cout << "Enter 1 to Play Again" << endl;
-        cout << "Enter 2 to View Leaderboard" << endl;
+        cout << "Enter 2 to View Total Score of the Game" << endl;
         cout << "Enter 3 to Quit" << endl;
         cout << "Please Enter: ";
-        cin >> nextAction; }
+        cin >> nextAction;
 
     if (nextAction == 1)
     {
         main();
     }
 
-    else if(nextAction == 2)
+    else if (nextAction == 2)
     {
         cout << "Your total score is " << totalScore << endl;
-        ///NEED THE TOTAL SCORE, to do leaderboard
-
+        cout << "Enter anything to continue" << endl;
     }
 
     else if(nextAction == 3)
@@ -1166,13 +1166,12 @@ else if (nextAction == 3) {
             //cout << "Press any key to EXIT..." << endl;
             //_getch();
     }
-    else
-        //donkey
 
+    }
 
 //TESTING i hope i didnt screw anything here
     cout << "Command > ";
-    if (!victory && !defeat) {
+    if ((!victory && !defeat) || nextAction == 2) {
         cin >> userInput;
     }
     else {

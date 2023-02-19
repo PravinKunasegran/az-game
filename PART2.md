@@ -41,6 +41,7 @@ List of  all the features on which is incomplete  (COMPLETED ).
 
 - Additional object which is act as impenetrable wall , "w" . Alien has to find another way to attack Zombie when the wall blocking the way 
 - End Game Options- At the end of the game, the user is presented with three options: restart the game, view the score, or quit. 
+- Able to view  score.
 
 ## Contributions
 
