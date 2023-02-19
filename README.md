@@ -12,17 +12,18 @@ The game will have a classic arcade-style feel with retro graphics and sound eff
 a simplified version of the Alien Path game based on the given requirements
 
 
-You may add one signature screenshot of your program here or above the title. Check out [this tutorial](https://www.digitalocean.com/community/tutorials/markdown-markdown-images) to learn how to do it.
+## Screenshot   
+Few screenshot from testing  has attached below 
 
-
-My Team would like to share a YouTube video  that demonstrates a 2D side-paced game featuring Alien Versus Zombie. The link is attached for your reference *latest progress date 
-:1/2/2023- [Video Demo](https://youtube.com).
+![Picture 1](https://raw.githubusercontent.com/PravinKunasegran/az-game/main/Pictures/image.%203md.jpg)
+ 
+ ![Picture 2](https://raw.githubusercontent.com/PravinKunasegran/az-game/main/Pictures/image%201.jpg)
 
 ## Compilation Instructions
 
 
 My Team would like to share a YouTube video  that demonstrates a 2D side-paced game featuring Alien Versus Zombie. The link is attached for your reference *latest progress date 
-:1/2/2023- [Video Demo](https://youtube.com).
+:19/02/2023- [Video Demo](https://youtube.com).
 
 ## Compilation Instructions
 ```
