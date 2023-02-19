@@ -20,7 +20,6 @@ Few screenshot from testing  has attached below
  ![Picture 2](https://raw.githubusercontent.com/PravinKunasegran/az-game/main/Pictures/image.jpg)
 
 ## Compilation Instructions
-s
 
 My Team would like to share a YouTube video  that demonstrates a 2D side-paced game featuring Alien Versus Zombie. The link is attached for your reference *latest progress date 
 :19/02/2023- [Video Demo](https://youtube.com).
