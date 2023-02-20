@@ -1,3 +1,13 @@
+// *********************************************************
+// Course: TCP1101 PROGRAMMING FUNDAMENTALS
+// Year: Trimester 1, 2022/23 (T2215)
+// Lab: TxxL
+// Names: PRAVIN A/L KUNASEGRAN | MAEVINARSH A/L LOGANATHAN | MALINY A/P THANARAJ
+// IDs: 1221303877 |  1211103476 | 1211100910
+// Emails: 1221303877@student.mmu.edu.my | 1211103476@student.mmu.edu.my| 1211100910@student.mmu.edu.my
+// Phones: 0125547295 | 0107872493 | 0166113563
+// *********************************************************
+
 #include <iostream>
 #include <algorithm>
 #include <cctype>
